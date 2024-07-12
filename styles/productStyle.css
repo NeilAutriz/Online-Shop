@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+*{
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #dadada;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Responsible for the main navigation bar */
+.top-navigation-bar{
+    display: flex;
+    background-color: #131921;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amazon-logo{
+    margin-left: 10px;
+    width: 120px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.country-deliver{
+    display: flex;
+    align-items: end;
+    padding-right: 10px;
+}
+
+.country-deliver img{
+    width: auto;
+    height: 22px;
+}
+
+.country-deliver p, .country-deliver h1{
+    color: #c4c4c4;
+    font-size: 13px;
+}
+
+.country-deliver h1{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+.search-bar-container{
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    height: 40px;
+    margin-right: 10px;
+    width: 800px;
+    max-width: 900px;
+}
+
+.search-bar-dropdown{
+    display: flex;
+    background-color: #e5e5e5;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 15px;
+    color: darkgray;
+    border-radius: 4px;
+}
+
+.drop-down-icon{
+    width: 15px;
+    padding-left: 3px;
+}
+
+.input-search-bar{
+    flex: 1;
+    display: flex;
+    padding-left: 5px;
+}
+
+.text-input-search-bar{
+    flex: 1;
+    border: none;
+    padding-left: 1px;
+    outline: none;
+}
+
+.search-bar{
+    background-color: #ffd64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    width: 40px;
+}
+
+.search-bar img{
+    width: 25px;
+    height: auto;
+}
+
+.language-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.language-flag{
+    margin-right: 5px;
+    width: 20px;
+}
+
+.language-label{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.dropdown-icon{
+    width: 8px;
+}
+
+.account-lists-container{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.sign-in-text, .return-order-greet{
+    color: #c4c4c4;
+    font-size: 13px;
+}
+
+
+.account-listing-text, .return-order-text{
+    color: white;
+    font-weight: bold;
+}
+
+.drop-down-account{
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 12px;
+}
+
+.return-orders-container{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon{
+    width: 33px;
+}
+
+.cart-container p{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+/* Contains the sub-navigation bar */
+
+.sub-navigation-bar{
+    gap: 20px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    background-color: #232f3e;
+}
+
+.menu-sub-nav{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon{
+    width: 16px;
+    margin-right: 3px;
+    height: auto;
+}
